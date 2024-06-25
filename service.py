@@ -52,6 +52,7 @@ def index():
     # Replace with the following:
     return render_template("index.html")
 
+#comment
 @app.route("/api/product/hash", methods=["GET"])
 def getProductHash():
     import hashlib
